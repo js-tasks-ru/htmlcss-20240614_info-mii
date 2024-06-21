@@ -1,1 +1,79 @@
 /* Стилизация кнопки */
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	outline: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.main {
+	margin: 20px;
+}
+
+.button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: inline-block;
+	font-family: inherit;
+	min-width: 189px;
+	height: 48px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 15px 0;
+	cursor: pointer;
+}
+
+.button[disabled] {
+	opacity: 0.5;
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+/* Стиль кнопки Primary */
+
+.button_primary {
+	background-color: var(--primary);
+	color: var(--white);
+	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_primary:hover {
+	background-color: #2342C0;
+}
+
+
+/* Стиль кнопки Secondary */
+
+.button_secondary {
+	background-color: var(--secondary);
+	color: var(--white);
+	font-size: 16px;
+	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_secondary:hover {
+	background-color: #5028C6;
+}
+
+/* Стиль кнопки Alternate */
+
+.button_alternate {
+	background-color: var(--white);
+	color: var(--grey-4);
+	border: 1px solid var(--grey-3);
+	font-size: 16px;
+	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_alternate:hover {
+	border: 1px solid var(--black);
+}
