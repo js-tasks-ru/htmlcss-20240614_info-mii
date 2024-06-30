@@ -39,16 +39,16 @@
     margin: 6px 0 39px 0;
 }
 
-.histogram_items {
+.histogram__items {
     display: flex;
     align-items: flex-end;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     height: 50px;
     gap: 1px;
 }
 
-.histogram_item {
+.histogram__item {
     background-color: var(--blue);
     flex-basis: 9px;
     flex-grow: 1;
