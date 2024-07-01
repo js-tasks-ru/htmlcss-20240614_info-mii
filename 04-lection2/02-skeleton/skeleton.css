@@ -7,11 +7,13 @@
 .skeleton__header {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 16px;
     margin-bottom: 24px;
 }
 
 .skeleton__image {
+    flex-shrink: 0;
     width: 64px;
     height: 64px;
     background: var(--grey-2);
@@ -19,6 +21,10 @@
 }
 
 .skeleton__description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
     text-align: center;
 }
 
@@ -29,11 +35,11 @@
 }
 
 .skeleton__line_small {
-    width: 172px;
+    width: 33%;
 }
 
 .skeleton__line_medium {
-    width: 257px;
+    width: 50%;
 }
 
 .skeleton__main {
