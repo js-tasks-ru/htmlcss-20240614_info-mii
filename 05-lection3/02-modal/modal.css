@@ -1,0 +1,47 @@
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: #C4C4C4;
+    display: flex;
+    cursor: pointer;
+}
+
+.modal__container {
+    position: relative;
+    margin: auto;
+    max-width: 428px;
+    height: 294px;
+    background: var(--white);
+    border-radius: 8px;
+    padding: 30px 40px;
+    cursor: default;
+}
+
+.modal__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+}
+
+.modal__description {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+}
+
+.modal__close {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
