@@ -1,4 +1,13 @@
-.content {
-height: 400px;
-background-color: #F9FAFC;
+.content{
+    padding-top: 67px;
+    padding-bottom: 204px;
+    background-color: var(--grey-1);
+}
+
+.content__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
