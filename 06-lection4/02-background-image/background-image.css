@@ -21,9 +21,3 @@
         background-image: url('./public/forest_2560.jpg');
     }
 }
-
-@media (min-width: 480px) {
-    .background-image {
-        background-image: url('./public/forest_768.jpg');
-    }
-}
